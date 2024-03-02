@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./CountryList.module.css";
-import Spinner from "../Spinner";
+import Spinner from "../spinner/Spinner";
 import CityItem from "../cityItem/CityItem";
-import Message from "../Message";
+import Message from "../message/Message";
 import CountryItem from "../countryItem/CountryItem";
 
 export default function CountryList({ cities, isLoading }) {
