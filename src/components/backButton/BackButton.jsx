@@ -8,7 +8,7 @@ export default function BackButton() {
     <Button
       type="back"
       onClick={(e) => {
-        navigate(-1);
+        navigate("/app/cities");
         e.preventDefault();
       }}
     >
