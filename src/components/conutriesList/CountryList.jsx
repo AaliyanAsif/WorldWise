@@ -4,8 +4,10 @@ import Spinner from "../spinner/Spinner";
 import CityItem from "../cityItem/CityItem";
 import Message from "../message/Message";
 import CountryItem from "../countryItem/CountryItem";
+import { useCities } from "../../contexts/CitiesContext";
 
-export default function CountryList({ cities, isLoading }) {
+export default function CountryList() {
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
