@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "id": "cc1b",
-      "cityName": "Gujranwala",
-      "country": "Pakistan",
-      "emoji": "🇵🇰",
-      "date": "2024-03-04T18:08:07.858Z",
-      "notes": "my city",
-      "position": {
-        "lat": "32.209726878686084",
-        "lng": "74.16633908986131"
-      }
-    },
-    {
       "id": "102d",
       "cityName": "Riyadh",
       "country": "Saudi Arabia",
@@ -22,6 +10,30 @@
       "position": {
         "lat": "24.621470971639155",
         "lng": "46.70966827752529"
+      }
+    },
+    {
+      "id": "9398",
+      "cityName": "Lahore",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2024-03-10T16:12:12.487Z",
+      "notes": "Great City!",
+      "position": {
+        "lat": "31.565279625845587",
+        "lng": "74.31376620790441"
+      }
+    },
+    {
+      "id": "2ea0",
+      "cityName": "Dublin",
+      "country": "Ireland",
+      "emoji": "🇮🇪",
+      "date": "2024-03-10T16:20:28.139Z",
+      "notes": "Capital of Ireland",
+      "position": {
+        "lat": "53.22244123496282",
+        "lng": "-6.225739978195613"
       }
     }
   ]
